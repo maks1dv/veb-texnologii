@@ -36,3 +36,4 @@ TaskBoard дозволяє створювати завдання, ставити
 1. Склонуй репозиторій:
 ```bash
 git clone [https://github.com/maks1dv/veb-texnologii.git](https://github.com/maks1dv/veb-texnologii.git)
+![alt text](image-1.png)

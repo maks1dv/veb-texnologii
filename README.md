@@ -37,7 +37,4 @@ TaskBoard дозволяє створювати завдання, ставити
 
 git clone [https://github.com/maks1dv/veb-texnologii.git](https://github.com/maks1dv/veb-texnologii.git)
 
-
-![alt text][def]
-
-[def]: image-1.png
+![alt text](avatar.png)

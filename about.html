@@ -1,13 +1,90 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Про проєкт</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про автора | TaskBoard</title>
 </head>
 <body>
-  <h1>Про TaskBoard</h1>
-  <p>TaskBoard: дошка завдань, яку ми будуємо на курсі.</p>
-  <p><a href="index.html">← На головну</a></p>
-  <p>Розробник сторінки: Довмат Максим, студент групи КН 3-1.</p>
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <img src="images/logo.png" alt="Логотип TaskBoard" width="36" height="36">
+            <span>TaskBoard</span>
+        </a>
+        <nav class="nav">
+            <a href="index.html">Головна</a>
+            <a href="about.html">Про автора</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="card profile">
+            <figure>
+                <img src="images/avatar.png" alt="Фото автора" width="160" height="160">
+                <figcaption>Студент групи КН 3-1, спеціальність «Комп'ютерні науки»</figcaption>
+            </figure>
+            <div class="profile-text">
+                <h1>Про автора</h1>
+                <p>Мене звати <strong>Максим Довмат</strong>. Я вивчаю веб-розробку й будую свій перший застосунок <em>TaskBoard</em>: від простої сторінки до сервісу з базою даних.</p>
+                <p>Мета курсу: навчитись створювати сайти, які працюють у браузері й на сервері.</p>
+            </div>
+        </article>
+
+        <section class="card">
+            <h2>Навички</h2>
+            <ul>
+                <li>HTML і CSS</li>
+                <li>JavaScript (основи)</li>
+                <li>Python</li>
+                <li>Git і GitHub</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Мій план навчання</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Етап</th>
+                        <th>Що вивчаю</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Git та GitHub</td>
+                        <td>Готово</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>HTML, CSS, JavaScript</td>
+                        <td>У процесі</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Python та ООП</td>
+                        <td>Далі</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Flask і бази даних</td>
+                        <td>Далі</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>Контакти</h2>
+            <p>Пошта: <a href="mailto:student@example.com">student@example.com</a></p>
+            <p>Код проєкту: <a href="https://github.com/maks1dv/veb-tehnologii" target="_blank" rel="noopener">мій GitHub</a></p>
+            <p><a href="index.html">&larr; Повернутись на головну</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 TaskBoard · навчальний проєкт</p>
+    </footer>
 </body>
 </html>

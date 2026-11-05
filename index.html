@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TaskBoard: дошка завдань</title>
-    <!-- 1. Підключаємо стилі -->
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -20,13 +20,11 @@
     </header>
 
     <main class="container">
-        <!-- Ваш існуючий блок залишається -->
         <section class="intro">
             <h1>Дошка завдань</h1>
             <p>TaskBoard допоможе записувати справи, ставити пріоритети та відмічати виконане. Це навчальний проєкт курсу «Технології створення веб-застосунків».</p>
         </section>
 
-        <!-- 2. Новий блок форми, який треба додати нижче -->
         <section class="card">
             <h2>Нова задача</h2>
             <form id="task-form" class="task-form">
@@ -59,6 +57,12 @@
                 <button type="submit" class="btn">Додати задачу</button>
                 <p id="form-message" class="form-message" role="alert"></p>
             </form>
+        </section>
+
+        <section class="card">
+            <h2>Мої задачі</h2>
+            <p id="counter" class="counter">Задач немає</p>
+            <ul id="task-list" class="task-list"></ul>
         </section>
     </main>
 
